@@ -1,0 +1,8 @@
+
+<div className="about">
+            <div className="about-details">
+                <h1 className="about-heading">Skills</h1>
+                <p>React.js | HTML | CSS | JavaScript | Core Java | Web Developer | SQL | C | C++</p>
+            </div>
+            <div className="about-img" style={{backgroundImage:`url(${Background})`}}> </div>
+        </div>

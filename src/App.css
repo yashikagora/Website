@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+.home-main {
+    min-height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-summary {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 50%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.home-heading {
+    font-weight: bold;
+    color: rgb(32, 104, 213);
+    font-size: 90px;
+}
+.home-para {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.home-img {
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 20%;
   }
+.home-img-web {
+    width: 150%;
+    border-radius: 5%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.skill {
+    background-color: rgb(172, 183, 194);
+    margin: 50px;
+    border: 0.5px black;
+    display: flex;
 }
-
-.App-link {
-  color: #61dafb;
+.skill-details {
+    display:flex;
+    width: 40%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skill-subdiv{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+.skill-background {
+    display: flex;
+    height: 80vh;
+    width: 60%;
+}
+.footer-main {
+    margin-top: 10%;
+    background-color: rgb(32, 104, 213);
+    height: 50vh;
+}
+.inner-footer {
+    position: absolute;
+    margin: 20px;
+    width: 30%;
+    height: 45%;
+    background-color: rgb(247, 248, 250);
+}
+.inner-footer-second {
+    position: absolute;
+    margin: 20px;
+    left: 30%;
+    width: 35%;
+    height: 45%;
+    background-color: rgb(247, 248, 250);
+}
+.inner-footer-third {
+    position: absolute;
+    margin: 20px;
+    left: 65%;
+    width: 32%;
+    height: 45%;
+    background-color: rgb(247, 248, 250);
+}
+.footer-text {
+    padding-left: 20px;
+}
+.project {
+    margin: 100px;
+    display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.project-heading {
+    font-weight: bold;
+    color: rgb(32, 104, 213);
+    font-size: 60px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
